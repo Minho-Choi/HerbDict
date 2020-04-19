@@ -22,6 +22,8 @@
 		B448359F244B0D9D0020AA54 /* HerbRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448359E244B0D9D0020AA54 /* HerbRow.swift */; };
 		B44835A1244B140A0020AA54 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44835A0244B140A0020AA54 /* AsyncImage.swift */; };
 		B44835A3244B37990020AA54 /* HerbDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44835A2244B37990020AA54 /* HerbDetailView.swift */; };
+		B44835A5244C89B70020AA54 /* HerbDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44835A4244C89B70020AA54 /* HerbDetail.swift */; };
+		B44835A7244C93A00020AA54 /* HerbImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44835A6244C93A00020AA54 /* HerbImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +57,8 @@
 		B448359E244B0D9D0020AA54 /* HerbRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbRow.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		B44835A0244B140A0020AA54 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		B44835A2244B37990020AA54 /* HerbDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbDetailView.swift; sourceTree = "<group>"; };
+		B44835A4244C89B70020AA54 /* HerbDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbDetail.swift; sourceTree = "<group>"; };
+		B44835A6244C93A00020AA54 /* HerbImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				B448358024484C300020AA54 /* ContentView.swift */,
 				B448359E244B0D9D0020AA54 /* HerbRow.swift */,
 				B44835A2244B37990020AA54 /* HerbDetailView.swift */,
+				B44835A4244C89B70020AA54 /* HerbDetail.swift */,
+				B44835A6244C93A00020AA54 /* HerbImage.swift */,
 				B44835A0244B140A0020AA54 /* AsyncImage.swift */,
 				B448358224484C310020AA54 /* Assets.xcassets */,
 				B448358724484C310020AA54 /* LaunchScreen.storyboard */,
@@ -220,10 +226,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44835A1244B140A0020AA54 /* AsyncImage.swift in Sources */,
+				B44835A5244C89B70020AA54 /* HerbDetail.swift in Sources */,
 				B448357D24484C300020AA54 /* AppDelegate.swift in Sources */,
 				B448357F24484C300020AA54 /* SceneDelegate.swift in Sources */,
 				B44835A3244B37990020AA54 /* HerbDetailView.swift in Sources */,
 				B448359F244B0D9D0020AA54 /* HerbRow.swift in Sources */,
+				B44835A7244C93A00020AA54 /* HerbImage.swift in Sources */,
 				B448358124484C300020AA54 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FolkMedicine/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VJYHQVG2L;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -385,6 +394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FolkMedicine/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VJYHQVG2L;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
