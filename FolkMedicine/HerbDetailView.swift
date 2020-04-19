@@ -59,7 +59,7 @@ struct herbDetail: Codable {
 class getDetail: ObservableObject {
     
     @Published var herbData = herbDetail()
-//
+
     init(id:String) {
         getDtlHerb(cntntsNo: id)
     }

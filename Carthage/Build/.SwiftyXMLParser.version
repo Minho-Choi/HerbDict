@@ -1,0 +1,10 @@
+{
+  "commitish" : "5.1.0",
+  "iOS" : [
+    {
+      "name" : "SwiftyXMLParser",
+      "hash" : "5d45fb4c83130f02f2c6d8a7bc133000662c9cc5805a005cbba3f5a9dbfceee8",
+      "swiftToolchainVersion" : "5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+    }
+  ]
+}
