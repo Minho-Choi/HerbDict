@@ -13,7 +13,32 @@
 		B448358324484C310020AA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B448358224484C310020AA54 /* Assets.xcassets */; };
 		B448358624484C310020AA54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B448358524484C310020AA54 /* Preview Assets.xcassets */; };
 		B448358924484C310020AA54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B448358724484C310020AA54 /* LaunchScreen.storyboard */; };
+		B448359424484EB30020AA54 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B448359124484EB30020AA54 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		B448359524484EB30020AA54 /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B448359124484EB30020AA54 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B448359624484EB30020AA54 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B448359224484EB30020AA54 /* Alamofire.framework */; };
+		B448359724484EB30020AA54 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B448359224484EB30020AA54 /* Alamofire.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B448359824484EB30020AA54 /* SwiftyXMLParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B448359324484EB30020AA54 /* SwiftyXMLParser.framework */; };
+		B448359924484EB30020AA54 /* SwiftyXMLParser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B448359324484EB30020AA54 /* SwiftyXMLParser.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B448359F244B0D9D0020AA54 /* HerbRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448359E244B0D9D0020AA54 /* HerbRow.swift */; };
+		B44835A1244B140A0020AA54 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44835A0244B140A0020AA54 /* AsyncImage.swift */; };
+		B44835A3244B37990020AA54 /* HerbDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44835A2244B37990020AA54 /* HerbDetailView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B448359A24484EB30020AA54 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B448359524484EB30020AA54 /* AlamofireImage.framework in Embed Frameworks */,
+				B448359924484EB30020AA54 /* SwiftyXMLParser.framework in Embed Frameworks */,
+				B448359724484EB30020AA54 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B448357924484C300020AA54 /* FolkMedicine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolkMedicine.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +49,12 @@
 		B448358524484C310020AA54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B448358824484C310020AA54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B448358A24484C310020AA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B448359124484EB30020AA54 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		B448359224484EB30020AA54 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		B448359324484EB30020AA54 /* SwiftyXMLParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyXMLParser.framework; path = Carthage/Build/iOS/SwiftyXMLParser.framework; sourceTree = "<group>"; };
+		B448359E244B0D9D0020AA54 /* HerbRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbRow.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		B44835A0244B140A0020AA54 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		B44835A2244B37990020AA54 /* HerbDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B448359424484EB30020AA54 /* AlamofireImage.framework in Frameworks */,
+				B448359824484EB30020AA54 /* SwiftyXMLParser.framework in Frameworks */,
+				B448359624484EB30020AA54 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +76,7 @@
 			children = (
 				B448357B24484C300020AA54 /* FolkMedicine */,
 				B448357A24484C300020AA54 /* Products */,
+				B448359024484EB30020AA54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +94,9 @@
 				B448357C24484C300020AA54 /* AppDelegate.swift */,
 				B448357E24484C300020AA54 /* SceneDelegate.swift */,
 				B448358024484C300020AA54 /* ContentView.swift */,
+				B448359E244B0D9D0020AA54 /* HerbRow.swift */,
+				B44835A2244B37990020AA54 /* HerbDetailView.swift */,
+				B44835A0244B140A0020AA54 /* AsyncImage.swift */,
 				B448358224484C310020AA54 /* Assets.xcassets */,
 				B448358724484C310020AA54 /* LaunchScreen.storyboard */,
 				B448358A24484C310020AA54 /* Info.plist */,
@@ -75,6 +113,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B448359024484EB30020AA54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B448359224484EB30020AA54 /* Alamofire.framework */,
+				B448359124484EB30020AA54 /* AlamofireImage.framework */,
+				B448359324484EB30020AA54 /* SwiftyXMLParser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +133,8 @@
 				B448357524484C300020AA54 /* Sources */,
 				B448357624484C300020AA54 /* Frameworks */,
 				B448357724484C300020AA54 /* Resources */,
+				B448359A24484EB30020AA54 /* Embed Frameworks */,
+				B448359B24484EC90020AA54 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -141,13 +191,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B448359B24484EC90020AA54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyXMLParser.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B448357524484C300020AA54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44835A1244B140A0020AA54 /* AsyncImage.swift in Sources */,
 				B448357D24484C300020AA54 /* AppDelegate.swift in Sources */,
 				B448357F24484C300020AA54 /* SceneDelegate.swift in Sources */,
+				B44835A3244B37990020AA54 /* HerbDetailView.swift in Sources */,
+				B448359F244B0D9D0020AA54 /* HerbRow.swift in Sources */,
 				B448358124484C300020AA54 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +363,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FolkMedicine/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FolkMedicine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +386,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FolkMedicine/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FolkMedicine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

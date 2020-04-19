@@ -1,0 +1,264 @@
+//
+//  data.swift
+//  FolkMedicine
+//
+//  Created by Minho Choi on 2020/04/16.
+//  Copyright © 2020 Minho Choi. All rights reserved.
+//
+
+<response>
+<header>
+<resultCode>00</resultCode>
+<resultMsg>정상적으로 처리되었습니다.</resultMsg>
+<requestParameter>
+<sType/>
+</requestParameter>
+</header>
+<body>
+<items>
+<item>
+<bneNm>
+<![CDATA[ Potentilla kleiniana (장미과) ]]>
+</bneNm>
+<cntntsNo>
+<![CDATA[ 205058 ]]>
+</cntntsNo>
+<cntntsSj>
+<![CDATA[ 가락지나물 ]]>
+</cntntsSj>
+<hbdcNm>
+<![CDATA[ 蛇含(사함) ]]>
+</hbdcNm>
+<imgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205058_MF_REPR_ATTACH_01.jpg
+]]>
+</imgUrl>
+<thumbImgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205058_MF_REPR_ATTACH_01_TMB.jpg
+]]>
+</thumbImgUrl>
+</item>
+<item>
+<bneNm>
+<![CDATA[ Ailanthus altissima for. altissima(소태나무과) ]]>
+</bneNm>
+<cntntsNo>
+<![CDATA[ 205057 ]]>
+</cntntsNo>
+<cntntsSj>
+<![CDATA[ 가죽나무 ]]>
+</cntntsSj>
+<hbdcNm>
+<![CDATA[ 樗根白皮(저근백피) ]]>
+</hbdcNm>
+<imgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205057_MF_REPR_ATTACH_01.jpg
+]]>
+</imgUrl>
+<thumbImgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205057_MF_REPR_ATTACH_01_TMB.jpg
+]]>
+</thumbImgUrl>
+</item>
+<item>
+<bneNm>
+<![CDATA[ Solanum melongena (가지과) ]]>
+</bneNm>
+<cntntsNo>
+<![CDATA[ 205056 ]]>
+</cntntsNo>
+<cntntsSj>
+<![CDATA[ 가지 ]]>
+</cntntsSj>
+<hbdcNm>
+<![CDATA[ (가체) ]]>
+</hbdcNm>
+<imgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205056_MF_REPR_ATTACH_01.jpg
+]]>
+</imgUrl>
+<thumbImgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205056_MF_REPR_ATTACH_01_TMB.jpg
+]]>
+</thumbImgUrl>
+</item>
+<item>
+<bneNm>
+<![CDATA[ Phragmites communis (벼과) ]]>
+</bneNm>
+<cntntsNo>
+<![CDATA[ 205055 ]]>
+</cntntsNo>
+<cntntsSj>
+<![CDATA[ 갈대 ]]>
+</cntntsSj>
+<hbdcNm>
+<![CDATA[ 盧根(노근) ]]>
+</hbdcNm>
+<imgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205055_MF_REPR_ATTACH_01.jpg
+]]>
+</imgUrl>
+<thumbImgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205055_MF_REPR_ATTACH_01_TMB.jpg
+]]>
+</thumbImgUrl>
+</item>
+<item>
+<bneNm>
+<![CDATA[ Diospyros kaki (감나무과) ]]>
+</bneNm>
+<cntntsNo>
+<![CDATA[ 205054 ]]>
+</cntntsNo>
+<cntntsSj>
+<![CDATA[ 감나무 ]]>
+</cntntsSj>
+<hbdcNm>
+<![CDATA[ 枾霜(시상) ]]>
+</hbdcNm>
+<imgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205054_MF_REPR_ATTACH_01.jpg
+]]>
+</imgUrl>
+<thumbImgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205054_MF_REPR_ATTACH_01_TMB.jpg
+]]>
+</thumbImgUrl>
+</item>
+<item>
+<bneNm>
+<![CDATA[ Solanum tuberosum (가지과) ]]>
+</bneNm>
+<cntntsNo>
+<![CDATA[ 205053 ]]>
+</cntntsNo>
+<cntntsSj>
+<![CDATA[ 감자 ]]>
+</cntntsSj>
+<hbdcNm>
+<![CDATA[ 洋芋(양우) ]]>
+</hbdcNm>
+<imgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205053_MF_REPR_ATTACH_01.jpg
+]]>
+</imgUrl>
+<thumbImgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205053_MF_REPR_ATTACH_01_TMB.jpg
+]]>
+</thumbImgUrl>
+</item>
+<item>
+<bneNm>
+<![CDATA[ Glycyrrhiza uralensis (콩과) ]]>
+</bneNm>
+<cntntsNo>
+<![CDATA[ 205052 ]]>
+</cntntsNo>
+<cntntsSj>
+<![CDATA[ 감초 ]]>
+</cntntsSj>
+<hbdcNm>
+<![CDATA[ 甘草(감초) ]]>
+</hbdcNm>
+<imgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205052_MF_REPR_ATTACH_01.jpg
+]]>
+</imgUrl>
+<thumbImgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205052_MF_REPR_ATTACH_01_TMB.jpg
+]]>
+</thumbImgUrl>
+</item>
+<item>
+<bneNm>
+<![CDATA[ Brassica juncea var. juncea (십자화과) ]]>
+</bneNm>
+<cntntsNo>
+<![CDATA[ 205051 ]]>
+</cntntsNo>
+<cntntsSj>
+<![CDATA[ 갓 ]]>
+</cntntsSj>
+<hbdcNm>
+<![CDATA[ 芥子(개자) ]]>
+</hbdcNm>
+<imgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205051_MF_REPR_ATTACH_01.jpg
+]]>
+</imgUrl>
+<thumbImgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205051_MF_REPR_ATTACH_01_TMB.jpg
+]]>
+</thumbImgUrl>
+</item>
+<item>
+<bneNm>
+<![CDATA[ Spirodela polyrhiza (개구리밥과) ]]>
+</bneNm>
+<cntntsNo>
+<![CDATA[ 205050 ]]>
+</cntntsNo>
+<cntntsSj>
+<![CDATA[ 개구리밥 ]]>
+</cntntsSj>
+<hbdcNm>
+<![CDATA[ 浮萍(부평) ]]>
+</hbdcNm>
+<imgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205050_MF_REPR_ATTACH_01.jpg
+]]>
+</imgUrl>
+<thumbImgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205050_MF_REPR_ATTACH_01_TMB.jpg
+]]>
+</thumbImgUrl>
+</item>
+<item>
+<bneNm>
+<![CDATA[ Actinidia polygama (다래나무과) ]]>
+</bneNm>
+<cntntsNo>
+<![CDATA[ 205049 ]]>
+</cntntsNo>
+<cntntsSj>
+<![CDATA[ 개다래 ]]>
+</cntntsSj>
+<hbdcNm>
+<![CDATA[ 木天蓼(목천료) ]]>
+</hbdcNm>
+<imgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205049_MF_REPR_ATTACH_01.jpg
+]]>
+</imgUrl>
+<thumbImgUrl>
+<![CDATA[
+http://www.nongsaro.go.kr/cms_contents/1124/205049_MF_REPR_ATTACH_01_TMB.jpg
+]]>
+</thumbImgUrl>
+</item>
+<numOfRows>10</numOfRows>
+<pageNo>1</pageNo>
+<totalCount>178</totalCount>
+</items>
+</body>
+</response>
