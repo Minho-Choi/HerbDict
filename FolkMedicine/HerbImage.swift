@@ -10,20 +10,31 @@ import SwiftUI
 
 struct HerbImage: View {
     
-    var herbData = herbDetail()
+    var imgURL: [String]
     
     var body: some View {
+        
         ScrollView(.horizontal) {
             HStack(spacing: 20) {
-                AsyncImage(url: URL(string: herbData.ImgUrl1)!, placeholder: Image(systemName: "photo")).scaledToFit().cornerRadius(10)
-                AsyncImage(url: URL(string: herbData.ImgUrl2)!, placeholder: Image(systemName: "photo")).scaledToFit().cornerRadius(10)
+                ForEach(trimArray(inputArray: imgURL), id: \.self) { url in
+                    AsyncImage(url: URL(string: url)!, placeholder: Image(systemName: "photo")).scaledToFit().cornerRadius(10)
+                }
             }.frame(height: 200)
         }
     }
 }
 
-struct HerbImage_Previews: PreviewProvider {
-    static var previews: some View {
-        HerbImage(herbData: herbDetail())
+func trimArray(inputArray: [String]) -> [String] {
+    
+    var array: [String] = ["", "", "", "", "", ""]
+    
+    for i in 0...5 {
+        if inputArray[5-i] == "0" {
+            array.remove(at: 5-i)
+        }
+        else {
+            array[5-i] = inputArray[5-i]
+        }
     }
+    return array
 }

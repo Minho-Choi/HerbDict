@@ -14,6 +14,8 @@ let HerbListURL = "http://api.nongsaro.go.kr/service/prvateTherpy/prvateTherpyLi
 let key = "20200325ZMJFEIMYLK63G1W5CRBSWQ"
 var listRows = 178
 
+
+
 struct ContentView: View {
     
     @ObservedObject var newHerbList = HerbList()
@@ -22,6 +24,7 @@ struct ContentView: View {
     //명칭 - sCntntsSj, 학명 - sBneNm, 생약명 - sHbdcNm
     @State private var selectedSearchType = 0
     @State var selectedSTStr = ""
+    @EnvironmentObject var herbID: herbIDClass
 
     var body: some View {
         
@@ -51,6 +54,7 @@ struct ContentView: View {
                         
                     }) {
                         Image(systemName: "magnifyingglass.circle")
+                            .imageScale(.large)
                             .scaleEffect(1.5)
                     }
                     
@@ -58,8 +62,7 @@ struct ContentView: View {
                 
                 List {
                     ForEach(newHerbList.herbList) { item in
-                        
-                        NavigationLink(destination: HerbDetailView(id: "\(item.id)")) {
+                        NavigationLink(destination: HerbDetailView(id: "\(item.id)")){
                             HerbRow(item: item)
                         }
                     }
@@ -163,5 +166,9 @@ class HerbList: ObservableObject {
         
     }
     
+}
+
+class herbIDClass: ObservableObject {
+    @Published var herbID: String = ""
 }
 

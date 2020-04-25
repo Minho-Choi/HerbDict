@@ -36,8 +36,3 @@ struct HerbRow: View {
     }
 }
 
-struct HerbRow_Previews: PreviewProvider {
-    static var previews: some View {
-        HerbRow(item: herbItem())
-    }
-}

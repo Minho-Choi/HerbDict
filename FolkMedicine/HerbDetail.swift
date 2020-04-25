@@ -10,7 +10,7 @@ import SwiftUI
 
 struct HerbDetail: View {
     
-    var herbData = herbDetail()
+    var herbData: herbDetail
     
     var body: some View {
         
@@ -29,7 +29,12 @@ struct HerbDetail: View {
                 Text("이용 부위 : \(herbData.useRegn)")
                 }.font(.headline).foregroundColor(.gray)
                 
-                HerbImage(herbData: herbData)
+                
+                
+                
+                
+                
+                HerbImage(imgURL: herbData.ImgUrl)
                     .padding(.bottom, 10)
                 
                 Text("형태").bold().font(.system(size: 20))
@@ -43,12 +48,6 @@ struct HerbDetail: View {
 
             }.padding(10)
         }
-    }
-}
-
-struct HerbDetail_Previews: PreviewProvider {
-    static var previews: some View {
-        HerbDetail(herbData: herbDetail())
     }
 }
 
